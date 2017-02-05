@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chart</title>
+    <script src="Chart.js"></script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js'></script>
+  </head>
+  <body>
+
+    <div class="1" style="width:800px;height:1000px;margin:auto;position:relative;">
+      <div class="" style="width:800px;height:400px;margin:auto;position:relative;">
+<h1 style="text-align:center;margin-top:100px">拉勾数据集</h1>
+<h2 style="text-align:center;margin-top:100px">可点击右下角放大进行交互</h2>
+<h3 style="text-align:center;margin-top:100px">抓取数据总和21000（其中剔除城市职位不足200的城市）</h3>
+      </div>
+<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZDZlYWUwYmMtNmFkYS00NjI3LWE2ODEtYzZmN2Q2ZDMzNTc3IiwidCI6IjY3MjQ4OGUwLWQwMDQtNDg1OS1hNjQ1LTllY2QzZTU1YmY3NCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+
+    </div>
+
+
+
+
+  </body>
+</html>

@@ -2,25 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>chart</title>
-    <script src="Chart.js"></script>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js'></script>
+    <title>Data analyse on Lagou jobs</title>
+    <link rel="stylesheet" href="/Users/cgq/Desktop/bttn.min.css">
   </head>
+  <style media="screen">
+    .main{
+      width:800px;
+      margin:auto;
+    }
+    .title{
+      text-align: center;
+      font-size: 2em;
+    }
+    .des {
+      text-align: center;
+    }
+    .feature {
+      width:55%;
+      margin: auto;
+    }
+    a {
+      text-decoration: none;
+      color: blue;
+
+    }
+  </style>
   <body>
+    <div class="main">
+      <div class="title">
+      <br></br>
+        <button class="bttn-stretch bttn-lg bttn-primary">Data visulization with Lagou job data</button>
 
-    <div class="1" style="width:800px;height:1000px;margin:auto;position:relative;">
-      <div class="" style="width:800px;height:400px;margin:auto;position:relative;">
-<h1 style="text-align:center;margin-top:100px">拉勾数据集</h1>
-<h2 style="text-align:center;margin-top:100px">可点击右下角放大进行交互</h2>
-<h3 style="text-align:center;margin-top:100px">抓取数据总和21000（其中剔除城市职位不足200的城市）</h3>
       </div>
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZDZlYWUwYmMtNmFkYS00NjI3LWE2ODEtYzZmN2Q2ZDMzNTc3IiwidCI6IjY3MjQ4OGUwLWQwMDQtNDg1OS1hNjQ1LTllY2QzZTU1YmY3NCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+      <div class="des">
+<button class="bttn-minimal bttn-md bttn-primary">A web crawler built with Python</button>     <br></br>
 
+      </div>
+      <div class="feature">
+          <button class="bttn-stretch bttn-sm bttn-primary">•  Data scraped from <a href="https://www.lagou.com">Lagou</a></button><br></br>
+          <button class="bttn-stretch bttn-sm bttn-primary">•  Data covers 20000 job posts.</button><br></br>
+          <button class="bttn-stretch bttn-sm bttn-primary">•  Cities with less than 200 jobs posts are eliminated.</button><br></br>
+          <button class="bttn-stretch bttn-sm bttn-primary">•  Click to interact with the chart</button><br></br>
+      </div>
+      <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZDZlYWUwYmMtNmFkYS00NjI3LWE2ODEtYzZmN2Q2ZDMzNTc3IiwidCI6IjY3MjQ4OGUwLWQwMDQtNDg1OS1hNjQ1LTllY2QzZTU1YmY3NCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
     </div>
-
-
-
-
   </body>
 </html>

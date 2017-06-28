@@ -26,7 +26,7 @@
       color: blue;
 
     }
-    #c1.active #1
+    #c1
     {display:none
     }
   </style>
@@ -38,6 +38,18 @@
       <a href="#2" id='c2'><button class="bttn-float bttn-lg bttn-primary">Presentation 2</button><a>
       </div>
 <iframe id='1' src="https://docs.google.com/presentation/d/1UIgiW7014RUeiN9PUgHqd3cqq-8_PBX0AjMfqGsLqaA/embed?start=true&loop=true&delayms=30000" frameborder="0" width="1200" height="710" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript">
+          
+          $(document).ready(function() {
+				 $('#1').click(function(){
+					$('iframe').fadeOut('500');
+					$('iframe').filter('iframe').toggle(500)
+				 });
+         $('#2').click(function(){
+					$('iframe').fadeOut('500');
+					$('iframe').filter('iframe').toggle(500)
+				 });
+        </script>
   </body>
 </html>

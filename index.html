@@ -26,7 +26,7 @@
       color: blue;
 
     }
-    #pre2
+    #pre_2
     {display:none
     }
   </style>
@@ -34,8 +34,8 @@
     <div class="main">
       <div class="title">
       <br></br>
-      <a href="#1" id='c1'><button class="bttn-float bttn-lg bttn-primary">Presentation 1</button><a>
-      <a href="#2" id='c2'><button class="bttn-float bttn-lg bttn-primary">Presentation 2</button><a>
+     <button id='one' class="bttn-float bttn-lg bttn-primary">Presentation 1</button>
+      <button id='two' class="bttn-float bttn-lg bttn-primary">Presentation 2</button>
       </div>
 
 	      <iframe id='pre1' src="https://docs.google.com/presentation/d/1UIgiW7014RUeiN9PUgHqd3cqq-8_PBX0AjMfqGsLqaA/embed?start=true&loop=true&delayms=30000" frameborder="0" width="1200" height="710" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -44,14 +44,14 @@
         <script type="text/javascript">
           
           $(document).ready(function() {
-				 $('#1').click(function(){
-					$('#pre2').hide();
-					 $('#pre1').show();
+				 $('#one').click(function(){
+					$('#pre_2').hide();
+					 $('#pre_1').show();
 					
 				 });
-         $('#2').click(function(){
-					$('#pre1').hide();
-					 $('#pre2').show();
+         $('#two').click(function(){
+					$('#pre_1').hide();
+					 $('#pre_2').show();
 				 });
         </script>
   </body>
